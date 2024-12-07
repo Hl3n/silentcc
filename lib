@@ -112,7 +112,7 @@
         'silent.<font color="rgb(245, 66, 230)">silent.cc</font> | P ', 'silent.<font color="rgb(245, 66, 230)">silent.cc</font> | ',
         'silent.<font color="rgb(245, 66, 230)">silent.cc</font> ', 'silent.<font color="rgb(245, 66, 230)">silent</font> ',
         'silent.<font color="rgb(245, 66, 230)">sile</font>', 'silent.<font color="rgb(245, 66, 230)">silen</font> ',
-        'silent.<font color="rgb(245, 66, 230)">sil</font> ', 'silent.<font color="rgb(245, 66,  ⬤
+        'silent.<font color="rgb(245, 66, 230)">sile</font>', 'silent.<font color="rgb(245, 66, 230)">sil</font> ',
         -- Bozos
         'G', 'Ga', 'Gay',
         'Ga', 'G',
@@ -131,7 +131,7 @@
                 wait(0.2)
             end 
         else
-            menu.bg.pre.Text = 'silent.<font color="rgb(245, 66, 230)">cc</font> | <font color="rgb(245, 66, 230)">Project delta</font>'
+            menu.bg.pre.Text = 'anti.<font color="rgb(245, 66, 230)">solutions</font> | <font color="rgb(245, 66, 230)">Project delta</font>'
         end
     end
  end) 
