@@ -131,7 +131,7 @@
                 wait(0.2)
             end 
         else
-            menu.bg.pre.Text = 'anti.<font color="rgb(245, 66, 230)">solutions</font> | <font color="rgb(245, 66, 230)">Project delta</font>'
+            menu.bg.pre.Text = 'silent.<font color="rgb(245, 66, 230)">cc</font> | <font color="rgb(245, 66, 230)">Project delta</font>'
         end
     end
  end) 
