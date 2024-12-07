@@ -120,10 +120,9 @@
         'A', 'Ak', 'Ak-', 'Ak-4', 'Ak-47',
         'Ak-4', 'Ak-', 'Ak', 'A',
         -- Credits
-        'M', 'Ma', 'Mad', 'Made', 'Made B', 'Made By', 'Made By:', 'Made By: l', 'Made By: lk', 'Made By: lks',
-        'Made By: lksi', 'Made By: lksiw', 'Made By: lksiwj', 'Made By: lksiwja', 'Made by: lksiwjas', 'Made By: lksiwjas.',
-        'Made By: lksiwjas', 'Made By: lksiwja', 'Made By: lksiwj', 'Made By: lksiw', 'Made By: lksi', 'Made By: lks', 'Made By: lk',
-        'Made By: l', 'Made By:', 'Made By', 'Made B', 'Made', 'Mad', 'Ma', 'M'
+        'M', 'Ma', 'Mad', 'Made', 'Made B', 'Made By', 'Made By:', 'Made By: l', 'Made By: lu', 'Made By: luc',
+        'Made By: luci', 'Made By: lucid', 'Made By: lucid', 'Made By: lucid', 'Made by: lucid', 'Made By: lucid.',
+        'Made By: r', 'Made By: rv', 'Made By: rvd', 'Made By: rvd1','Made By:', 'Made By', 'Made B', 'Made', 'Mad', 'Ma', 'M'
     }
     while wait(0.2) do
         if library.AnimatedText then
