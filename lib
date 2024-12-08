@@ -35,11 +35,11 @@
     AnimatedText = false,
     keybind = Enum.KeyCode.End,
     Colors = {
-        libColor = Color3.new(0.952941, 0.356863, 0.874510),
+        libColor = Color3.new(30,144,255),
         riskyColor = Color3.fromRGB(255, 0, 0),
         FontColor = Color3.fromRGB(255, 255, 255),
         MainColor = Color3.fromRGB(14, 14, 14),
-        AccentColor = Color3.new(0.952941, 0.356863, 0.874510),
+        AccentColor = Color3.new(30,144,255),
         OutlineColor = Color3.fromRGB(15, 15, 15),
     },
     Enabled = true,
