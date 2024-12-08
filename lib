@@ -93,9 +93,9 @@
     local textList = {
         -- Original
         '', 's', 'si', 'sil', 'sile', 'silen', 'silent.<font color="rgb(123,104,238)">c</font>',
-        'silent.<font color="rgb(123,104,238)">cc</font> ', 'silent.<font color="rgb(123,104,238)">sil</font> ',
-        'silent.<font color="rgb(123,104,238)">sile</font> ', 'silent.<font color="rgb(123,104,238)">silen</font> ',
-        'silent.<font color="rgb(123,104,238)">silent</font> ', 'silent.<font color="rgb(123,104,238)">silent.</font> ',
+        'silent.<font color="rgb(123,104,238)">cc</font> ', 'silent.<font color="rgb(123,104,238)">c</font> ',
+        'silent.<font color="rgb(123,104,238)">sile</font> ', 'silent.<font color="rgb(123,104,238)">cc</font> ',
+        'silent.<font color="rgb(123,104,238)">silent</font> ', 'silent.<font color="rgb(123,104,238)">cc</font> ',
         'silent.<font color="rgb(123,104,238)">c</font> ', 'silent.<font color="rgb(123,104,238)">cc</font> ',
         'silent.<font color="rgb(123,104,238)">cc</font> | ', 'silent.<font color="rgb(123,104,238)">cc</font> | P ',
         'silent.<font color="rgb(123,104,238)">cc</font> | Pr ', 'silent.<font color="rgb(123,104,238)">cc</font> | Pro ',
@@ -130,7 +130,7 @@
                 wait(0.2)
             end 
         else
-            menu.bg.pre.Text = 'anti.<font color="rgb(123,104,238)">solutions</font> | <font color="rgb(123,104,238)">Project delta</font>'
+            menu.bg.pre.Text = 'silent.<font color="rgb(123,104,238)">cc</font> | <font color="rgb(123,104,238)">Project delta</font>'
         end
     end
  end) 
