@@ -31,7 +31,7 @@
  local tabviewer = menu.bg.bg.bg.bg.bg.bg.tabbuttons
  
  local library = {
-    Title = 'silent.font color="rgb(123,104,238)">cc</font> | <font color="rgb(123,104,238)">Pre-Build</font>',
+    Title = 'silent.font color="rgb(30,144,255)">cc</font> | <font color="rgb(30,144,255)">Pre-Build</font>',
     AnimatedText = false,
     keybind = Enum.KeyCode.End,
     Colors = {
@@ -92,26 +92,26 @@
  task.spawn(function()
     local textList = {
         -- Original
-        '', 's', 'si', 'sil', 'sile', 'silen', 'silent.<font color="rgb(123,104,238)">c</font>',
-        'silent.<font color="rgb(123,104,238)">cc</font> ', 'silent.<font color="rgb(123,104,238)">c</font> ',
-        'silent.<font color="rgb(123,104,238)">sile</font> ', 'silent.<font color="rgb(123,104,238)">cc</font> ',
-        'silent.<font color="rgb(123,104,238)">silent</font> ', 'silent.<font color="rgb(123,104,238)">cc</font> ',
-        'silent.<font color="rgb(123,104,238)">c</font> ', 'silent.<font color="rgb(123,104,238)">cc</font> ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | ', 'silent.<font color="rgb(123,104,238)">cc</font> | P ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Pr ', 'silent.<font color="rgb(123,104,238)">cc</font> | Pro ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Proj ', 'silent.<font color="rgb(123,104,238)">cc</font> | Proje ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Projec ', 'silent.<font color="rgb(123,104,238)">cc</font> | Project ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Project D ', 'silent.<font color="rgb(123,104,238)">cc</font> | Project De ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Project Del ', 'silent.<font color="rgb(123,104,238)">cc</font> | Project Delt ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Project Delta ', 'silent.<font color="rgb(123,104,238)">cc</font> | Project Delt ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Project Del ', 'silent.<font color="rgb(123,104,238)">cc</font> | Project De ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Project De ', 'silent.<font color="rgb(123,104,238)">cc</font> | Project D ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Project ', 'silent.<font color="rgb(123,104,238)">cc</font> | Projec ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Proje  ', 'silent.<font color="rgb(123,104,238)">cc</font> | Proj ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | Pro ', 'silent.<font color="rgb(123,104,238)">cc</font> | Pr ',
-        'silent.<font color="rgb(123,104,238)">cc</font> | P ', 'silent.<font color="rgb(123,104,238)">cc</font> | ',
-        'silent.<font color="rgb(123,104,238)">cc</font> ', 'silent.<font color="rgb(123,104,238)">c</font> ',
-        'silent.<font color="rgb(123,104,238)">sile</font>', 'silent.<font color="rgb(123,104,238)"></font> ',
+        '', 's', 'si', 'sil', 'sile', 'silen', 'silent.<font color="rgb(30,144,255)">c</font>',
+        'silent.<font color="rgb(30,144,255)">cc</font> ', 'silent.<font color="rgb(30,144,255)">c</font> ',
+        'silent.<font color="rgb(30,144,255)">sile</font> ', 'silent.<font color="rgb(30,144,255)">cc</font> ',
+        'silent.<font color="rgb(30,144,255)">silent</font> ', 'silent.<font color="rgb(30,144,255)">cc</font> ',
+        'silent.<font color="rgb(30,144,255)">c</font> ', 'silent.<font color="rgb(30,144,255)">cc</font> ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | ', 'silent.<font color="rgb(30,144,255)">cc</font> | P ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Pr ', 'silent.<font color="rgb(30,144,255)">cc</font> | Pro ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Proj ', 'silent.<font color="rgb(30,144,255)">cc</font> | Proje ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Projec ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Project D ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project De ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Project Del ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project Delt ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Project Delta ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project Delt ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Project Del ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project De ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Project De ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project D ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Project ', 'silent.<font color="rgb(30,144,255)">cc</font> | Projec ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Proje  ', 'silent.<font color="rgb(30,144,255)">cc</font> | Proj ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | Pro ', 'silent.<font color="rgb(30,144,255)">cc</font> | Pr ',
+        'silent.<font color="rgb(30,144,255)">cc</font> | P ', 'silent.<font color="rgb(30,144,255)">cc</font> | ',
+        'silent.<font color="rgb(30,144,255)">cc</font> ', 'silent.<font color="rgb(30,144,255)">c</font> ',
+        'silent.<font color="rgb(30,144,255)">sile</font>', 'silent.<font color="rgb(30,144,255)"></font> ',
         -- Bozos
         'G', 'Ga', 'Gay',
         'Ga', 'G',
@@ -130,7 +130,7 @@
                 wait(0.2)
             end 
         else
-            menu.bg.pre.Text = 'silent.<font color="rgb(123,104,238)">cc</font> | <font color="rgb(123,104,238)">Project delta</font>'
+            menu.bg.pre.Text = 'silent.<font color="rgb(30,144,255)">cc</font> | <font color="rgb(30,144,255)">Project delta</font>'
         end
     end
  end) 
@@ -221,8 +221,8 @@ for i,v in next, library.toInvis do v.Visible = false end
 for i,v in next, library.tabbuttons do
    local state = v == newButton
    local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
-   local imageTweenStart = TweenService:Create(v, tweenInfo, {ImageColor3 = Color3.fromRGB(123,104,238)})
-   local textTweenStart = TweenService:Create(v.text, tweenInfo, {TextColor3 = Color3.fromRGB(123,104,238)})
+   local imageTweenStart = TweenService:Create(v, tweenInfo, {ImageColor3 = Color3.fromRGB(30,144,255)})
+   local textTweenStart = TweenService:Create(v.text, tweenInfo, {TextColor3 = Color3.fromRGB(30,144,255)})
    local imageTweenEnd = TweenService:Create(v, tweenInfo, {ImageColor3 = Color3.fromRGB(0,0,0)})
    local textTweenEnd = TweenService:Create(v.text, tweenInfo, {TextColor3 = Color3.fromRGB(125, 125, 125)})
    if state then
@@ -319,7 +319,7 @@ tobble.Size = UDim2.new(0, 11, 0, 11)
  
 mid.Name = "mid"
 mid.Parent = tobble
-mid.BackgroundColor3 = Color3.fromRGB(123,104,238)
+mid.BackgroundColor3 = Color3.fromRGB(30,144,255)
 mid.BorderColor3 = Color3.fromRGB(20,20,20)
 mid.BorderSizePixel = 2
 mid.Size = UDim2.new(0, 12, 0, 12)
@@ -502,7 +502,7 @@ function toggle:addColorpicker(args)
  
    mid.Name = "mid"
    mid.Parent = colorpicker
-   mid.BackgroundColor3 = Color3.fromRGB(123,104,238)
+   mid.BackgroundColor3 = Color3.fromRGB(30,144,255)
    mid.BorderColor3 = Color3.fromRGB(25,25,25)
    mid.BorderSizePixel = 2
    mid.Size = UDim2.new(1, 0, 1, 0)
@@ -1572,7 +1572,7 @@ colorpicker_2.Size = UDim2.new(0, 20, 0, 10)
  
 mid.Name = "mid"
 mid.Parent = colorpicker_2
-mid.BackgroundColor3 = Color3.fromRGB(123,104,238)
+mid.BackgroundColor3 = Color3.fromRGB(30,144,255)
 mid.BorderColor3 = Color3.fromRGB(25,25,25)
 mid.BorderSizePixel = 2
 mid.Size = UDim2.new(1, 0, 1, 0)
