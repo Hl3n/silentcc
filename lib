@@ -415,7 +415,7 @@ function toggle:addKeybind(args)
    keybind.Size = UDim2.new(0, 51, 0, 10)
  
    button.Parent = keybind
-   button.BackgroundColor3 = Color3.fromRGB(187, 131, 255)
+   button.BackgroundColor3 = Color3.fromRGB(30,144,255)
    button.BackgroundTransparency = 1.000
    button.BorderSizePixel = 0
    button.Position = UDim2.new(-0.270902753, 0, 0, 0)
@@ -1811,7 +1811,7 @@ text.TextStrokeTransparency = 0.000
 text.TextXAlignment = Enum.TextXAlignment.Left
  
 button.Parent = keybind
-button.BackgroundColor3 = Color3.fromRGB(187, 131, 255)
+button.BackgroundColor3 = Color3.fromRGB(30,144,255)
 button.BackgroundTransparency = 1.000
 button.BorderSizePixel = 0
 button.Position = UDim2.new(7.09711117e-08, 0, 0, 0)
