@@ -31,15 +31,15 @@
  local tabviewer = menu.bg.bg.bg.bg.bg.bg.tabbuttons
  
  local library = {
-    Title = 'silent.font color="rgb(30,144,255)">cc</font> | <font color="rgb(30,144,255)">Pre-Build</font>',
+    Title = 'silent.font color="rgb(245, 66, 230)">cc</font> | <font color="rgb(245, 66, 230)">Pre-Build</font>',
     AnimatedText = false,
     keybind = Enum.KeyCode.End,
     Colors = {
-        libColor = Color3.new(30,144,255),
+        libColor = Color3.new(0.952941, 0.356863, 0.874510),
         riskyColor = Color3.fromRGB(255, 0, 0),
         FontColor = Color3.fromRGB(255, 255, 255),
         MainColor = Color3.fromRGB(14, 14, 14),
-        AccentColor = Color3.new(30,144,255),
+        AccentColor = Color3.new(0.952941, 0.356863, 0.874510),
         OutlineColor = Color3.fromRGB(15, 15, 15),
     },
     Enabled = true,
@@ -92,26 +92,26 @@
  task.spawn(function()
     local textList = {
         -- Original
-        '', 's', 'si', 'sil', 'sile', 'silen', 'silent.<font color="rgb(30,144,255)">c</font>',
-        'silent.<font color="rgb(30,144,255)">cc</font> ', 'silent.<font color="rgb(30,144,255)">c</font> ',
-        'silent.<font color="rgb(30,144,255)">sile</font> ', 'silent.<font color="rgb(30,144,255)">cc</font> ',
-        'silent.<font color="rgb(30,144,255)">silent</font> ', 'silent.<font color="rgb(30,144,255)">cc</font> ',
-        'silent.<font color="rgb(30,144,255)">c</font> ', 'silent.<font color="rgb(30,144,255)">cc</font> ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | ', 'silent.<font color="rgb(30,144,255)">cc</font> | P ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Pr ', 'silent.<font color="rgb(30,144,255)">cc</font> | Pro ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Proj ', 'silent.<font color="rgb(30,144,255)">cc</font> | Proje ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Projec ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Project D ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project De ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Project Del ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project Delt ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Project Delta ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project Delt ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Project Del ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project De ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Project De ', 'silent.<font color="rgb(30,144,255)">cc</font> | Project D ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Project ', 'silent.<font color="rgb(30,144,255)">cc</font> | Projec ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Proje  ', 'silent.<font color="rgb(30,144,255)">cc</font> | Proj ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | Pro ', 'silent.<font color="rgb(30,144,255)">cc</font> | Pr ',
-        'silent.<font color="rgb(30,144,255)">cc</font> | P ', 'silent.<font color="rgb(30,144,255)">cc</font> | ',
-        'silent.<font color="rgb(30,144,255)">cc</font> ', 'silent.<font color="rgb(30,144,255)">c</font> ',
-        'silent.<font color="rgb(30,144,255)">sile</font>', 'silent.<font color="rgb(30,144,255)"></font> ',
+        '', 's', 'si', 'sil', 'sile', 'silen', 'silent.<font color="rgb(245, 66, 230)">c</font>',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> ', 'silent.<font color="rgb(245, 66, 230)">sil</font> ',
+        'silent.<font color="rgb(245, 66, 230)">sile</font> ', 'silent.<font color="rgb(245, 66, 230)">silen</font> ',
+        'silent.<font color="rgb(245, 66, 230)">silent</font> ', 'silent.<font color="rgb(245, 66, 230)">silent.</font> ',
+        'silent.<font color="rgb(245, 66, 230)">c</font> ', 'silent.<font color="rgb(245, 66, 230)">cc</font> ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | P ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Pr ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Pro ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Proj ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Proje ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Projec ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Project ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Project D ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Project De ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Project Del ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Project Delt ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Project Delta ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Project Delt ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Project Del ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Project De ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Project De ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Project D ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Project ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Projec ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Proje  ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Proj ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | Pro ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | Pr ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> | P ', 'silent.<font color="rgb(245, 66, 230)">cc</font> | ',
+        'silent.<font color="rgb(245, 66, 230)">cc</font> ', 'silent.<font color="rgb(245, 66, 230)">c</font> ',
+        'silent.<font color="rgb(245, 66, 230)">sile</font>', 'silent.<font color="rgb(245, 66, 230)"></font> ',
         -- Bozos
         'G', 'Ga', 'Gay',
         'Ga', 'G',
@@ -130,7 +130,7 @@
                 wait(0.2)
             end 
         else
-            menu.bg.pre.Text = 'silent.<font color="rgb(30,144,255)">cc</font> | <font color="rgb(30,144,255)">Project delta</font>'
+            menu.bg.pre.Text = 'anti.<font color="rgb(245, 66, 230)">solutions</font> | <font color="rgb(245, 66, 230)">Project delta</font>'
         end
     end
  end) 
@@ -166,7 +166,7 @@
  library:Create('UIListLayout', {Padding = UDim.new(0, 4);FillDirection = Enum.FillDirection.Vertical;SortOrder = Enum.SortOrder.LayoutOrder;Parent = library.NotificationArea});
  function library:Notify(Text, Time)
     local XSize, YSize = library:GetTextBounds(Text, Enum.Font.Code, 14);YSize = YSize + 7
-    local NotifyOuter = library:Create('Frame', {BorderColor3 = Color3.new(30,144,255);Position = UDim2.new(0, 100, 0, 10);Size = UDim2.new(0, 0, 0, YSize);ClipsDescendants = true;Transparency = 0,ZIndex = 100;Parent = library.NotificationArea});
+    local NotifyOuter = library:Create('Frame', {BorderColor3 = Color3.new(189, 172, 255);Position = UDim2.new(0, 100, 0, 10);Size = UDim2.new(0, 0, 0, YSize);ClipsDescendants = true;Transparency = 0,ZIndex = 100;Parent = library.NotificationArea});
     library:Create('UIGradient', {Color = ColorSequence.new{ColorSequenceKeypoint.new(0, library.Colors.MainColor), ColorSequenceKeypoint.new(0.1, library.Colors.MainColor), ColorSequenceKeypoint.new(0.6, library.Colors.MainColor), ColorSequenceKeypoint.new(1, library.Colors.MainColor)},Rotation = -120;Parent = NotifyOuter});
     local NotifyInner = library:Create('Frame', {BackgroundColor3 = library.Colors.MainColor;BorderColor3 = library.Colors.OutlineColor;BorderMode = Enum.BorderMode.Inset;Size = UDim2.new(1, 0, 1, 0);ZIndex = 101;Parent = NotifyOuter});
     local InnerFrame = library:Create('Frame', {BackgroundColor3 = Color3.new(1, 1, 1);BorderSizePixel = 0;Position = UDim2.new(0, 1, 0, 1);Size = UDim2.new(1, -2, 1, -2);ZIndex = 102;Parent = NotifyInner;});
@@ -221,8 +221,8 @@ for i,v in next, library.toInvis do v.Visible = false end
 for i,v in next, library.tabbuttons do
    local state = v == newButton
    local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
-   local imageTweenStart = TweenService:Create(v, tweenInfo, {ImageColor3 = Color3.fromRGB(30,144,255)})
-   local textTweenStart = TweenService:Create(v.text, tweenInfo, {TextColor3 = Color3.fromRGB(30,144,255)})
+   local imageTweenStart = TweenService:Create(v, tweenInfo, {ImageColor3 = Color3.fromRGB(245, 66, 230)})
+   local textTweenStart = TweenService:Create(v.text, tweenInfo, {TextColor3 = Color3.fromRGB(245, 66, 230)})
    local imageTweenEnd = TweenService:Create(v, tweenInfo, {ImageColor3 = Color3.fromRGB(0,0,0)})
    local textTweenEnd = TweenService:Create(v.text, tweenInfo, {TextColor3 = Color3.fromRGB(125, 125, 125)})
    if state then
@@ -319,7 +319,7 @@ tobble.Size = UDim2.new(0, 11, 0, 11)
  
 mid.Name = "mid"
 mid.Parent = tobble
-mid.BackgroundColor3 = Color3.fromRGB(30,144,255)
+mid.BackgroundColor3 = Color3.fromRGB(245, 66, 230)
 mid.BorderColor3 = Color3.fromRGB(20,20,20)
 mid.BorderSizePixel = 2
 mid.Size = UDim2.new(0, 12, 0, 12)
@@ -415,7 +415,7 @@ function toggle:addKeybind(args)
    keybind.Size = UDim2.new(0, 51, 0, 10)
  
    button.Parent = keybind
-   button.BackgroundColor3 = Color3.fromRGB(30,144,255)
+   button.BackgroundColor3 = Color3.fromRGB(187, 131, 255)
    button.BackgroundTransparency = 1.000
    button.BorderSizePixel = 0
    button.Position = UDim2.new(-0.270902753, 0, 0, 0)
@@ -502,7 +502,7 @@ function toggle:addColorpicker(args)
  
    mid.Name = "mid"
    mid.Parent = colorpicker
-   mid.BackgroundColor3 = Color3.fromRGB(30,144,255)
+   mid.BackgroundColor3 = Color3.fromRGB(245, 66, 230)
    mid.BorderColor3 = Color3.fromRGB(25,25,25)
    mid.BorderSizePixel = 2
    mid.Size = UDim2.new(1, 0, 1, 0)
@@ -1572,7 +1572,7 @@ colorpicker_2.Size = UDim2.new(0, 20, 0, 10)
  
 mid.Name = "mid"
 mid.Parent = colorpicker_2
-mid.BackgroundColor3 = Color3.fromRGB(30,144,255)
+mid.BackgroundColor3 = Color3.fromRGB(245, 66, 230)
 mid.BorderColor3 = Color3.fromRGB(25,25,25)
 mid.BorderSizePixel = 2
 mid.Size = UDim2.new(1, 0, 1, 0)
@@ -1811,7 +1811,7 @@ text.TextStrokeTransparency = 0.000
 text.TextXAlignment = Enum.TextXAlignment.Left
  
 button.Parent = keybind
-button.BackgroundColor3 = Color3.fromRGB(30,144,255)
+button.BackgroundColor3 = Color3.fromRGB(187, 131, 255)
 button.BackgroundTransparency = 1.000
 button.BorderSizePixel = 0
 button.Position = UDim2.new(7.09711117e-08, 0, 0, 0)
